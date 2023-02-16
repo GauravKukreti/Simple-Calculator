@@ -7,10 +7,16 @@ function backspace(x)
 
 function power1(x)
 {
-    return 0;
+    var p=x.split(',');
+    var ans = Math.pow(Number(p[0]),Number(p[1]));
+    return ans;
 }
 
 function factorial(x)
 {
-    return 1;
+    if(x==0)
+      return 1;
+    for(var i=x-1;i>=1;i--)
+        x*=i;
+    return x;
 }
