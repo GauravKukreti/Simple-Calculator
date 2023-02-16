@@ -1,0 +1,17 @@
+#btn{
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#calc{
+    border-width: 10px;
+    border-radius: 10px;
+}
